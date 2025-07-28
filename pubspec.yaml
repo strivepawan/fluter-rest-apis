@@ -39,6 +39,10 @@ dependencies:
   flutter_riverpod: ^2.5.1 # UI bindings for Riverpod
   json_annotation: ^4.8.1
   logger: ^2.0.2+1 # For better logging than print()
+  get: ^4.7.2
+  intl: ^0.20.2
+  iconsax: ^0.0.8
+  google_fonts: ^6.2.1
 
 dev_dependencies:
   flutter_test:
