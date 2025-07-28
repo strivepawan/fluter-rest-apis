@@ -4,6 +4,9 @@ import 'package:flutter/services.dart'; // Import this for SystemNavigator.pop
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
+import 'features/account/presentations/screen/account_screen.dart';
+import 'features/offers/presentations/screen/offers_screen.dart';
+import 'features/search/presentations/screen/search_screen.dart';
 import 'features/user/presentations/screen/user_list_screen.dart';
 import 'utils/constants/colors.dart';
 import 'utils/helpers/helper_functions.dart';
@@ -74,10 +77,9 @@ class NavigationController extends GetxController {
 
   final screens = [
     const UserListScreen(),
-     const UserListScreen(),
-     const UserListScreen(),
-    // const ExploreScreen(),
- const UserListScreen(),  ];
+     const SearchScreen(),
+     const OffersScreen(),
+ const AccountScreen(),  ];
 
   Future<bool> handleBackPressed() async {
     DateTime now = DateTime.now();
